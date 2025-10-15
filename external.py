@@ -13,4 +13,5 @@ class external():
         self.db.curr.execute(query)
         rows = self.db.curr.fetchall()
         print("la recuperation des donnéés est faite avec succes ")
-        return rows
+
+        return rows 
